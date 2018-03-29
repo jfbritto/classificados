@@ -16,6 +16,6 @@ spl_autoload_register(function($class){
 	}
 
 });
-
+//cria uma instancia da classe principal core
 $core = new Core();
 $core->run();
